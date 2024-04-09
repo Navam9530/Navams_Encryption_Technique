@@ -1,6 +1,10 @@
 # Navam's Encryption Technique (NET)
 
-## Encrypting
+## Installation
+
+`pip install navam`
+
+## Encryption
 
 ```python
 from navam import encrypt
@@ -9,7 +13,7 @@ encrypt('path_to_file')
 
 The encrypted file is stored as `encrypted.nvm`
 
-## Decrypting
+## Decryption
 
 ```python
 from navam import decrypt
